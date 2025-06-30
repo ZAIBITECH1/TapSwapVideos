@@ -1,14 +1,22 @@
 {
-  "name": "whatsapp-taskbot",
+  "name": "whatsapp-bot",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
-    "@hapi/boom": "^11.1.4",
-    "@whiskeysockets/baileys": "^6.6.0",
+    "@whiskeysockets/baileys": "^6.7.16",
+    "axios": "^1.8.2",
     "fs-extra": "^11.2.0",
-    "pino": "^8.16.0"
+    "moment": "^2.30.1",
+    "node-fetch": "^3.3.2",
+    "openai": "^4.86.2",
+    "pino": "^9.6.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
