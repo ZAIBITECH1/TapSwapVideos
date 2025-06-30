@@ -1,0 +1,14 @@
+{
+  "name": "whatsapp-taskbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^11.1.4",
+    "@whiskeysockets/baileys": "^6.6.0",
+    "fs-extra": "^11.2.0",
+    "pino": "^8.16.0"
+  }
+}
